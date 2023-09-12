@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../Css/style-menu.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="../js/js-menu.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container_top_nav">
+            <div class="top_nav">
+                <a href="#" onclick="onCLickDisplayAddress()">
+                    <div class="address">
+                        <i class='bx bx-location-plus'></i>
+                        <p>Địa chỉ</p>
+                        <i class='bx bxs-down-arrow'></i>
+                    </div>
+                </a>
+                <div class="select_deliver" style="cursor: pointer;">
+                    <div class="select-wrap">
+                        <i class='bx bxs-car'></i>
+                        <p>Phương thức giao hàng</p>
+                        <i class='bx bxs-down-arrow'></i>
+                    </div>
+                    <ul class="dropdown-deliver" style="display: none;">
+                        <li> <img src="../Media/img/delivery-man.png" alt="">Xe máy
+                        </li>
+
+                        <li> <i class="bx bxs-car"></i>Xe Ô Tô
+                        </li>
+
+                        <li> <i class="bx bxs-plane-alt"></i>máy bay
+                        </li>
+
+                        <li> <i class='bx bxs-store'></i></i>Đặt đến lấy
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact">
+                    <i class='bx bxs-phone'></i>
+                    <p>0859414317</p>
+                    <i class='bx bxl-gmail'></i>
+                    <p>Danghuukhoa110733@gmail.com</p>
+                </div>
+            </div>
+            <div class="about_us">
+                <i class='bx bxs-info-square'></i>
+                <a href="about_us.html">
+                    <p>About us</p>
+                </a>
+            </div>
+        </div>
+        <div class="sticky_nav_container">
+            <div class="sticky_left_container">
+                <a href="../TrangChu.html">
+                    <div class="logo">
+                        <img src="../Media/img/pizza_logo.png" alt="pizza_logo">
+                        <h1>Domino's</h1> <i class='bx bxs-copyright'></i>
+                    </div>
+                </a>
+                <div class="menuPizza">
+                    <p><a href="../Templates/MuaHang.html">Combo Pizza</a></p>
+                </div>
+                <div class="unamed_2">
+                    <p><a href="../Templates/menu.html">Menu</a></p>
+                </div>
+                <div class="Cart">
+                    <p><i class='bx bxs-cart-alt'></i><a href="../Templates/cart.html">Cart</a></p>
+                </div>
+                <div class="User">
+                    <p><i class='bx bxs-user'></i><a href="../Templates/login.html">Login</a></p>
+                </div>
+            </div>
+            <div class="sticky_right_container">
+            </div>
+        </div>
+
+        <section>
+            <h1 class="title">menu</h1>
+            <ul class="category">
+                <li>Tất cả</li>
+                <li>Hawai</li>
+                <li>Hải sản</li>
+                <li>Bacon</li>
+                <div class="search_taskbar">
+                    <div class="search-wrap">
+                        <input type="text" placeholder="Tìm pizza">
+                        <button><i class='bx bx-subdirectory-right'></i></button>
+                    </div>
+                </div>
+            </ul>
+            <div class="PizzaType_container">
+                <div class="pizzaType_wrapper">
+                    <div class="pizza_form">
+                        <div class="Pizza_img">
+                            <img src="../Media/img/pizza_type_hawai.jpg">
+                        </div>
+                        <div class="PizzaType_content">
+                            <h1>Pizza Hawai</h1>
+                            <p>Món ăn thanh đạm</p>
+                            <p>Hãy hưởng thức món ăn với phong cách AloHa đến từ Hawai</p>
+                        </div>
+                        <div class="button_Pizza_Type">
+                            <button class="btn-normal" id="btn-type-hawai">Thêm vào giỏi hàng</button>
+                        </div>
+                    </div>
+                    <div class="pizza_form">
+                        <div class="Pizza_img">
+                            <img src="../Media/img/pizza_type_hawai.jpg">
+                        </div>
+                        <div class="PizzaType_content">
+                            <h1>Pizza Hawai</h1>
+                            <p>Món ăn thanh đạm</p>
+                            <p>Hãy hưởng thức món ăn với phong cách AloHa đến từ Hawai</p>
+                        </div>
+                        <div class="button_Pizza_Type">
+                            <button class="btn-normal" id="btn-type-hawai">Thêm vào giỏi hàng</button>
+                        </div>
+                    </div>
+                    <div class="pizza_form">
+                        <div class="Pizza_img">
+                            <img src="../Media/img/pizza_type_hawai.jpg">
+                        </div>
+                        <div class="PizzaType_content">
+                            <h1>Pizza Hawai</h1>
+                            <p>Món ăn thanh đạm</p>
+                            <p>Hãy hưởng thức món ăn với phong cách AloHa đến từ Hawai</p>
+                        </div>
+                        <div class="button_Pizza_Type">
+                            <button class="btn-normal" id="btn-type-hawai">Thêm vào giỏi hàng</button>
+                        </div>
+                    </div>
+                    <div class="pizza_form">
+                        <div class="Pizza_img">
+                            <img src="../Media/img/pizza_type_hai_san.jpg">
+                        </div>
+                        <div class="PizzaType_content">
+                            <h1>Pizza Hải sản</h1>
+                            <p>Món ăn đến từ biển</p>
+                            <p>Hãy hưởng thức món ăn với làm bằng Hải Sản</p>
+                        </div>
+                        <div class="button_Pizza_Type">
+                            <button class="btn-normal" id="btn-type-hai-san">Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="pizza_form">
+                        <div class="Pizza_img">
+                            <img src="../Media/img/pizza_type_hai_san.jpg">
+                        </div>
+                        <div class="PizzaType_content">
+                            <h1>Pizza Hải sản</h1>
+                            <p>Món ăn đến từ biển</p>
+                            <p>Hãy hưởng thức món ăn với làm bằng Hải Sản</p>
+                        </div>
+                        <div class="button_Pizza_Type">
+                            <button class="btn-normal" id="btn-type-hai-san">Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="pizza_form">
+                        <div class="Pizza_img">
+                            <img src="../Media/img/pizza_type_hai_san.jpg">
+                        </div>
+                        <div class="PizzaType_content">
+                            <h1>Pizza Hải sản</h1>
+                            <p>Món ăn đến từ biển</p>
+                            <p>Hãy hưởng thức món ăn với làm bằng Hải Sản</p>
+                        </div>
+                        <div class="button_Pizza_Type">
+                            <button class="btn-normal" id="btn-type-hai-san">Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="pizza_form">
+                        <div class="Pizza_img">
+                            <img src="../Media/img/pizza_type_thit_nuong.jpg">
+                        </div>
+                        <div class="PizzaType_content">
+                            <h1>Pizza Bacon</h1>
+                            <p>Món ăn đăc biệt</p>
+                            <p>Được chế biến từ thịt bacon. Mang đến hương vị mới lạ.</p>
+                        </div>
+                        <div class="button_Pizza_Type">
+                            <button class="btn-normal" id="btn-type-bacon">Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="pizza_form">
+                        <div class="Pizza_img">
+                            <img src="../Media/img/pizza_type_thit_nuong.jpg">
+                        </div>
+                        <div class="PizzaType_content">
+                            <h1>Pizza Bacon</h1>
+                            <p>Món ăn đăc biệt</p>
+                            <p>Được chế biến từ thịt bacon. Mang đến hương vị mới lạ.</p>
+                        </div>
+                        <div class="button_Pizza_Type">
+                            <button class="btn-normal" id="btn-type-bacon">Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="pizza_form">
+                        <div class="Pizza_img">
+                            <img src="../Media/img/pizza_type_thit_nuong.jpg">
+                        </div>
+                        <div class="PizzaType_content">
+                            <h1>Pizza Bacon</h1>
+                            <p>Món ăn đăc biệt</p>
+                            <p>Được chế biến từ thịt bacon. Mang đến hương vị mới lạ.</p>
+                        </div>
+                        <div class="button_Pizza_Type">
+                            <button class="btn-normal" id="btn-type-bacon">Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <footer>
+        <header id="footer_header_container">
+            <a href="https://www.facebook.com/DominosPizzaVietnam" style="display: flex;align-items: center;">
+                <p>Contact Domino's Pizza VietNam</p>
+                <i class='bx bxl-meta'></i>
+                <i class='bx bxl-instagram-alt'></i>
+                <div class="line_bottom"></div>
+            </a>
+        </header>
+        <main id="footer_main_container">
+            <div class="left_content">
+                <div class="logo_footer"> 
+                    <a href="../TrangChu.html"> <img src="../Media/img/pizza_logo.png" alt="domino'slogo"> </a> 
+                    <div class="unnameEventError">
+                        <i class='bx bxs-phone-call'>Hotline</i>
+                        <p>12345567</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right_content_container">
+                <div class="right_content">
+                    <a href="../TrangChu.html">
+                        <p>News</p>
+                    </a>
+                    <a href="../Templates/menu.html">
+                        <p>Menu</p>
+                    </a>
+                    <a href="../Templates/contactUs.html">
+                        <p style="cursor: pointer;">Liên hệ</p>
+                    </a>
+                    <a href="../Templates/MuaHang.html">
+                        <p>Combo Khuyến mãi</p>
+                    </a>
+                </div>
+                <div class="certificate_logo">
+                    <a href="http://online.gov.vn/Home/WebDetails/9616"> <img src="../Media/img/certificate.png"
+                            alt=""></a>
+                </div>
+            </div>
+        </main>
+    </footer>
+    <div id="blank-container" style="display: none;z-index: 11111;">
+        <div class="blank_wrap">
+
+            <div class="blank">
+                <div class="icon">
+                    <button onclick="onCLickDisplayAddress()"><i class='bx bxs-x-circle'></i></button>
+                </div>
+                <div class="form_customer">
+                    <input type="text" name="name" id="input-name" required>
+                    <div class="label">
+                        TYPE YOUR ADDRESS HERE
+                    </div>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.3710089128263!2d106.69475244146666!3d10.859360347785284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529c17978287d%3A0xec48f5a17b7d5741!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBOZ3V54buFbiBU4bqldCBUaMOgbmggLSBDxqEgc-G7nyBxdeG6rW4gMTI!5e0!3m2!1svi!2s!4v1692596096301!5m2!1svi!2s"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

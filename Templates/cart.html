@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="../Css/style-cart.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="container_top_nav">
+            <div class="top_nav">
+                <a href="#" onclick="onCLickDisplayAddress()">
+                    <div class="address">
+                        <i class='bx bx-location-plus'></i>
+                        <p>Địa chỉ</p>
+                        <i class='bx bxs-down-arrow'></i>
+                    </div>
+                </a>
+                <div class="select_deliver" style="cursor: pointer;">
+                    <div class="select-wrap">
+                        <i class='bx bxs-car'></i>
+                        <p>Phương thức giao hàng</p>
+                        <i class='bx bxs-down-arrow'></i>
+                    </div>
+                    <ul class="dropdown-deliver" style="display: none;">
+                        <li> <img src="../Media/img/delivery-man.png" alt="">Xe máy
+                        </li>
+
+                        <li> <i class="bx bxs-car"></i>Xe Ô Tô
+                        </li>
+
+                        <li> <i class="bx bxs-plane-alt"></i>máy bay
+                        </li>
+
+                        <li> <i class='bx bxs-store'></i></i>Đặt đến lấy
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact">
+                    <i class='bx bxs-phone'></i>
+                    <p>0859414317</p>
+                    <i class='bx bxl-gmail'></i>
+                    <p>Danghuukhoa110733@gmail.com</p>
+                </div>
+            </div>
+            <div class="about_us">
+                <i class='bx bxs-info-square'></i>
+                <a href="about_us.html">
+                    <p>About us</p>
+                </a>
+            </div>
+        </div>
+        <div class="sticky_nav_container">
+            <div class="sticky_left_container">
+                <a href="../TrangChu.html">
+                    <div class="logo">
+                        <img src="../Media/img/pizza_logo.png" alt="pizza_logo">
+                        <h1>Domino's</h1> <i class='bx bxs-copyright'></i>
+                    </div>
+                </a>
+                <div class="menuPizza">
+                    <p><a href="../Templates/MuaHang.html">Combo Pizza</a></p>
+                </div>
+                <div class="unamed_2">
+                    <p><a href="../Templates/menu.html">Menu</a></p>
+                </div>
+                <div class="Cart">
+                    <p><i class='bx bxs-cart-alt'></i><a href="../Templates/cart.html">Cart</a></p>
+                </div>
+                <div class="User">
+                    <p><i class='bx bxs-user'></i><a href="../Templates/login.html">Login</a></p>
+                </div>
+            </div>
+            <div class="sticky_right_container">
+            </div>
+        </div>
+    </header>
+    <section>
+        <h1 class="title">Giỏ hàng của bạn</h1>
+        <div class="cart-container">
+            <div class="cart">
+                <div class="left-side">
+                    <div class="pizza_img">
+                        <img src="../Media/img/pizza_type_thit_nuong.jpg" alt="">
+                    </div>
+                    <div class="pizza-information">
+                        <p>Pizza Bacon thịt nướng Kobe chuẩn quốc tế</p>
+                        <p>Cỡ 9 inch</p>
+                        <p>Đế dày Xốp giòn</p>
+                        <div class="modify-size-pizza">
+                            <p class="mod-pizza">Điều chỉnh</p>
+                            <p class="mod-pizza">Xóa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <p>235.000đ</p>
+                    <div class="modify-quantity">
+                        <div id="decrease"></i>-</div>
+                        <p id="quantity-pizza">1</p>
+                        <div id="increase">+</i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-wrap">
+                <div class="payment-left">
+                    <p class="col-left">Tổng</p>
+                    <p class="col-left">Giảm K.Mãi</p>
+                    <p class="col-left">Giảm Vouchers</p>
+                    <p class="col-left">Phí giao hàng</p>
+                </div>
+                <div class="payment-right">
+                    <p class="col-right">235.000đ</p>
+                    <p class="col-right">0đ</p>
+                    <p class="col-right">0đ</p>
+                    <p class="col-right">0đ</p>
+                </div>
+            </div>
+            <div class="button">
+                <button class="btn-normal">Thanh toán</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <header id="footer_header_container">
+            <a href="https://www.facebook.com/DominosPizzaVietnam" style="display: flex;align-items: center;">
+                <p>Contact Domino's Pizza VietNam</p>
+                <i class='bx bxl-meta'></i>
+                <i class='bx bxl-instagram-alt'></i>
+                <div class="line_bottom"></div>
+            </a>
+        </header>
+        <main id="footer_main_container">
+            <div class="left_content">
+                <div class="logo_footer"> 
+                    <a href="../TrangChu.html"> <img src="../Media/img/pizza_logo.png" alt="domino'slogo"> </a> 
+                    <div class="unnameEventError">
+                        <i class='bx bxs-phone-call'>Hotline</i>
+                        <p>12345567</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right_content_container">
+                <div class="right_content">
+                    <a href="../TrangChu.html">
+                        <p>News</p>
+                    </a>
+                    <a href="../Templates/menu.html">
+                        <p>Menu</p>
+                    </a>
+                    <a href="../Templates/contactUs.html">
+                        <p style="cursor: pointer;">Liên hệ</p>
+                    </a>
+                    <a href="../Templates/MuaHang.html">
+                        <p>Combo Khuyến mãi</p>
+                    </a>
+                </div>
+                <div class="certificate_logo">
+                    <a href="http://online.gov.vn/Home/WebDetails/9616"> <img src="../Media/img/certificate.png" alt=""></a> 
+                </div>
+            </div>
+        </main>
+    </footer>
+</body>
+
+</html>
